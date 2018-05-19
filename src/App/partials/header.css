@@ -1,0 +1,23 @@
+.header {
+    background-color: skyblue;
+    color: green;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 30px;
+}
+
+.header div {
+    margin: auto;
+}
+
+.header button {
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
