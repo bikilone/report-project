@@ -4,6 +4,7 @@ import "./report.css"
 
 export default function Report(props) {
 
+  
     return (
 
         <div className="report">
@@ -25,7 +26,7 @@ export default function Report(props) {
                 <h6>Status</h6>
                 </div>
                 <div id="last-div">
-                    <h4><i class="fas fa-eye"></i></h4>
+                    <h4><i className="fas fa-eye" onClick={props.openModal}></i></h4>
                 <h4>x</h4>
                 </div>
             </div>

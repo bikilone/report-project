@@ -7,7 +7,7 @@ export default function Search(props) {
 
     return (
         <React.Fragment>
-        <label for="search"></label>
+        <label htmlFor="search"></label>
         <input id="search"></input>
         </React.Fragment>
     )   
