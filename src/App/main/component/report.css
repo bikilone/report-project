@@ -5,18 +5,19 @@
     padding: 5px;
     display: flex;
     justify-content: space-between;
+    background: linear-gradient( to right, orange, lightgreen, yellow);
+    
 
 }
 .report>div {
-    width: 30%;
+    width: 32%;
     border-right: 1px black solid;
 }
 
 .last-column {
     display: flex;
     flex-direction: row !important;
-    background-color: red;
-    justify-content: space-around;
+    justify-content: space-between;
     border-right: none !important;
 } 
 
@@ -42,6 +43,7 @@
     justify-content: space-around;
     text-align: center;
     /* margin: auto; */
+    padding-top: 10px;
 }
 
 #last-div h4{
@@ -60,3 +62,23 @@
     margin-top: 5px;
 }
 
+@media screen and (max-width: 750px) {
+    .last-column {
+        width: 68% !important;
+    }
+    .report>div:nth-child(1) {
+        width: 15%;
+    }
+    .report>div:nth-child(2) {
+        width: 15%;
+    }
+    .report >div{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .report {
+        font-size: 3vw;
+    }
+}

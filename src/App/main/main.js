@@ -15,6 +15,12 @@ export default class Main extends Component {
           <div className="main">
           <Search/>
           <Report/>
+          <Report/>
+          <Report/>
+          <Report/>
+          <Report/>
+          <Report/>
+          <Report/>
           </div>
       )
   }

@@ -25,8 +25,8 @@ export default function Report(props) {
                 <h6>Status</h6>
                 </div>
                 <div id="last-div">
-                    <h4>icon</h4>
-                <h6>x</h6>
+                    <h4><i class="fas fa-eye"></i></h4>
+                <h4>x</h4>
                 </div>
             </div>
        
