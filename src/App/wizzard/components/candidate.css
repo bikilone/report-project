@@ -1,0 +1,39 @@
+.candidate {
+    width: 45%;
+    margin: 10px 2%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 5px;
+    font-size: 25px;
+    float: left;
+}
+
+.candidate>:nth-child(1) {
+    flex: 1;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.candidate>:nth-child(2) {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    justify-content: space-evenly;  
+}
+
+@media screen and (max-width: 750px) {
+    .candidate {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .candidate {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

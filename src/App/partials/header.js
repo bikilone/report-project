@@ -1,5 +1,7 @@
 import React  from "react";
 
+import { NavLink } from "react-router-dom";
+
 import "./header.css"
 
 export default function Header() {
@@ -8,8 +10,8 @@ export default function Header() {
             <div className="header">
                 <div>Reports Administration</div>
                 <div>
-                    <button>Reports</button>
-                    <button>Create report</button>
+                    <button >Reports</button>
+                    <button >Create report</button >
                 </div>
             </div>
         )

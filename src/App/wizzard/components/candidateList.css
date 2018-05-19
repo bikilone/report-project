@@ -1,0 +1,50 @@
+.candidate-list {
+    float: right;
+    padding-right: 30px;
+    width: 60%;
+    border-left: 1px solid black;
+    height: 100vh;
+    margin: 30px 0;
+}
+
+.candidate-list #search{
+   float: right;
+   margin-top: 0;
+   display: block;
+}
+
+.list {
+    clear: both;
+    padding-top: 20px;
+    
+}
+
+.next {
+    clear: both;
+    margin-top: 30px;
+    float: right;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    text-shadow: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+    .candidate-list {
+        margin-right: 0;
+        padding-right: 5px;
+    }
+    .candidate-list #search {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .candidate-list #search {
+        width: 150px;
+    }
+    
+}
