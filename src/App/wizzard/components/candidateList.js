@@ -3,13 +3,14 @@ import React from "react";
 import "./candidateList.css";
 
 import Candidate from "./candidate";
+import Search from "../../partials/search";
+import ButtonNext from "../../partials/buttonNext";
 
-import Search from "../../partials/search"
 
 export default function CandidateList() {
     return (
-        <div className="candidate-list">
-        <Search />
+        
+        <div>
         <div className="list">
         <Candidate/>
         <Candidate/>
@@ -27,9 +28,7 @@ export default function CandidateList() {
         <Candidate/>
         <Candidate/>
         </div>
-        <button className="next"> 
-            Next
-        </button>
+        <ButtonNext/>
         </div>
     )
 }
